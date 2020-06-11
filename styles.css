@@ -1,0 +1,48 @@
+
+body {
+    background-image: url(images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    position: relative;
+   
+}
+.navbar {
+    
+    text-align:right;
+    margin-right: 20px;
+    font-size: 20px;
+}
+.navbar a{
+    color: white; 
+    text-decoration: none; /*get rid of default underline in css*/
+    transition: color 0.5s;
+}
+h1 {
+    color: white;
+    text-align:center;
+
+
+}
+.list {
+    color: white;
+   
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color:rgba(53, 53, 53, 0.5)
+
+}
+.list .list-item {
+    margin-bottom: 10px;
+    display: flex;
+    font-weight: bold;
+}
+.description {
+    color: white;
+    font-weight: normal;
+}
+.list-item a {
+    color: rgb(123, 165, 243); 
+    font-size: 20px;
+    text-decoration: none; /*get rid of default underline in css */
+    transition: color 0.5s;
+} 
