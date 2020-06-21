@@ -13,7 +13,7 @@ body {
     font-size: 20px;
 }
 .navbar a{
-    color: white; 
+    color: black; 
     text-decoration: none; /*get rid of default underline in css*/
     transition: color 0.5s;
 }
@@ -24,24 +24,28 @@ h1 {
 
 }
 .list {
-    color: white;
+    width: 60%;
+    margin:0 auto;
+    padding: 10px;
+
    
-    margin-left: 100px;
-    margin-right: 100px;
-    background-color:rgba(53, 53, 53, 0.5)
 
 }
-.list .list-item {
+.list-item {
     margin-bottom: 10px;
     display: flex;
+    flex-direction: column;
+    justify-content: center;
     font-weight: bold;
+    padding: 20px;
+    box-shadow:0px 10px 50px goldenrod;
 }
 .description {
-    color: white;
+    color:black;
     font-weight: normal;
 }
 .list-item a {
-    color: rgb(123, 165, 243); 
+    color: blue; 
     font-size: 20px;
     text-decoration: none; /*get rid of default underline in css */
     transition: color 0.5s;
